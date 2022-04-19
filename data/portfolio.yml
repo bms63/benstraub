@@ -3,7 +3,7 @@ portfolioitems:
   - title: Coding Projects
     portfolioitem:
       - name: ADaM in R Asset Library
-        image: '/images/portfolio/admiral-60x60.png'
+        image: '/images/portfolio/admiral.png'
         link: https://github.com/pharmaverse/admiral
         linktext: 'ADaM in R Asset Library'
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
