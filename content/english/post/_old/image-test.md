@@ -1,12 +1,12 @@
----
-author: Hugo Authors
-date: "2019-03-04"
-description: Guide to Thumbnails in Hugo
-tags:
-- thumbnail
-thumbnail: images/landscape.jpg
-title: Guide to Thumbnails in Hugo
----
+# ---
+# author: Hugo Authors
+# date: "2019-03-04"
+# description: Guide to Thumbnails in Hugo
+# tags:
+# - thumbnail
+# thumbnail: images/landscape.jpg
+# title: Guide to Thumbnails in Hugo
+# ---
 
 Thumbnails can be enabled easily by setting the `thumbnail` parameter in the frontmatter to an image such as `"images/landscape.jpg"`.
 
