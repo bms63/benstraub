@@ -9,20 +9,10 @@ description: Hugo, the world's fastest framework for building websites
 title: About
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
-Hugo makes use of a variety of open source projects including:
+A simple presence on the internet was helped by Hugo and the R package blogdown.  My aim is to show a curated selection of tne open source projects that I work on to help with the burgeoning effort to use R for Clinical Reporting.  
 
-- https://github.com/yuin/goldmark
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
+This site will also showcase different clinical reporting efforts that I have lead or assisted while at GSK. 
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Learn more and contribute on [Hugo](https://github.com/gohugoio).
+Learn more and contribute on [Blogdown](https://bookdown.org/yihui/blogdown/).
