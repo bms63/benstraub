@@ -1,38 +1,24 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+title: "Hello xportr!"
+author: "Ben Straub"
+date: 2022-01-07
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+Hi everyone,
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+It's like a package a week that I get to announce!
 
-You can embed an R code chunk like this:
+We got another R package up on CRAN to help with the building of the clinical reporting pipeline using R. We call this pipeline the [pharmaverse](https://pharmaverse.org/).
 
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
-```
+Enter [xportr](https://atorus-research.github.io/xportr/)
 
-# Including Plots
+A tool to help convert your R datasets into version 5 xpt files used for regulatory submission. We have a lot of custom checks to help get your datasets ready for conversion and validation. Let us know what you think! If you see pesky bugs or have ideas on improvements, please drop us an issue on GitHub.
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
+Long term we are hoping that {xportr} can do more than just version 5 xpt files as the landscape of data types for submissions to regulatory agencies changes. Stay tuned!
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
-)
-```
+Big shout out to Eli Miller from Atorus for helping to drive this effort. This was a joint effort between GSK and Atorus. One more package to round out the clinical reporting pipeline for R!
 

@@ -1,6 +1,6 @@
 portfolioitems:
   # portfolio category
-  - title: Coding Projects
+  - title: R Package Projects
     portfolioitem:
       - name: ADaM in R Asset Library
         image: '/images/portfolio/admiral_2.png'
@@ -39,26 +39,42 @@ portfolioitems:
           - R Packages
           - CDISC
           - Open Source
-  # portfolio category
-  - title: Clinical Trials
+  - title: Clinical Reporting Work
     portfolioitem:
-      - name: Project 1
+      - name: Phase 3 Study
         image: '/images/portfolio/code.png'
-        description: 'This project does not have a link attribute'
+        link: https://github.com/pharmaverse/admiral
+        linktext: 'ADaM in R Asset Library'
+        description: R package to aid in the building of ADaM datasets
         tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 2
+          - R Packages
+          - CDISC
+          - Open Source
+        status: 'Ongoing'
+        start: '2021'
+        authors:
+          - Employees at GSK and Roche
+      - name: Phase 1 Study
         image: '/images/portfolio/code.png'
-        link: https://gohugo.io/
-        description: 'You can click on [**this link**](#codingprojects) to scroll to my Coding Projects portfolio'
+        link: https://github.com/atorus-research/xportr/
+        description: 'Designed to help get your xpt files ready for transport either to a clinical data set validator application or to a regulatory agency. This package has the functionality to associate metadata information to a local R data frame, perform data set level validation checks and convert into a transport v5 file(xpt).'
+        status: 'Ongoing'
+        start: '2021'
+        authors:
+          - Employees at GSK, Atorus and JJ
         tags:
-          - Tag 1
-          - Tag 2
-      - name: Project 3
+          - R Packages
+          - CDISC
+          - Open Source
+      - name: Phase 3 Study Post-SAC
         image: '/images/portfolio/code.png'
-        link: https://gohugo.io/
-        description: 'A description'
+        link: https://atorus-research.github.io/logrx/
+        description: 'facilitate logging in a clinical environment with the goal of making code easily traceable and reproducible'
+        status: 'Ongoing'
+        start: '2021'
+        authors:
+          - Employees at GSK, Atorus and JJ
         tags:
-          - Tag 1
-          - Tag 2
+          - R Packages
+          - CDISC
+          - Open Source

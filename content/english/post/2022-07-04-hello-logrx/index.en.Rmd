@@ -1,0 +1,17 @@
+---
+title: Hello logrx!
+author: Ben Straub
+date: '2022-01-07'
+slug: []
+categories: []
+tags: []
+---
+
+Hi all!
+Great news! We have logrx up on CRAN. The goal of logrx is to facilitate logging in a clinical environment with the goal of making code easily traceable and reproducible. This forms one part of a burgeoning end to end pipeline for doing Clinical Reporting with R. 
+
+Please check out the pharmaverse if you are interested in seeing packages for creating ADaM datasets, TLFs or using metadata to drive your analysis or helping to prepare your R work for submission to a regulatory agency.
+
+If you want to get started with logrx check out our website at A Logging Utility Focus on Clinical Trial Programming Workflows • logrx (atorus-research.github.io) and if you spot a pesky bug or have an idea for an enhancement, then please log an issue on our GitHub Repo: https://atorus-research.github.io/logrx/. 
+
+logrx was formally known as timber, but we had to change it as CRAN already had a package called timber!
