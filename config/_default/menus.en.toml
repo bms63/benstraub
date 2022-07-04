@@ -6,9 +6,15 @@
 
   [[main]]
   name = "Portfolio"
-  weight = 300
+  weight = 200
   identifier = "portfolio"
   url = "/portfolio/"
+
+  [[main]]
+  name = "Resume"
+  weight = 300
+  identifier = "resume"
+  url = "/resume/"
 
   [[main]]
   name = "About"

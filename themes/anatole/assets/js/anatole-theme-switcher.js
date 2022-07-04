@@ -23,7 +23,7 @@ const switchTheme = () => {
       setThemeStyle('light');
       break;
     default:
-      setThemeStyle('light');
+      setThemeStyle('dark');
       break;
   }
 };
@@ -48,6 +48,6 @@ document.addEventListener(
   false,
 );
 
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', switchTheme, false);
+// window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', switchTheme, false);
 
 document.addEventListener('DOMContentLoaded', () => initTheme());
