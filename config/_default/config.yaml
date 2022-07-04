@@ -2,7 +2,7 @@ baseURL: https://ben-straub.netlify.app/
 languageCode: en
 DefaultContentLanguage: en
 title: Website of Ben Straub
-theme: anatole
+theme: "anatole"
 summarylength: 10
 enableEmoji: yes
 enableRobotsTXT: yes
