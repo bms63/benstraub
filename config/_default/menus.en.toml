@@ -22,8 +22,8 @@
   identifier = "about"
   url = "/about/"
 
-  [[footer]]
-  name = "imprint"
-  weight = 1
-  identifier = "imprint"
-  url = "/imprint/"
+#  [[footer]]
+#  name = "imprint"
+#  weight = 1
+#  identifier = "imprint"
+#  url = "/imprint/"

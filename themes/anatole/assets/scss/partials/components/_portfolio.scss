@@ -34,9 +34,9 @@
   }
 
   &__image {
-    max-width: 100%;
-    min-width: 100%;
-    box-shadow: t('shadow');
+    max-width: 60%;
+    min-width: 60%;
+    //box-shadow: t('shadow');
     overflow: hidden;
     transition: box-shadow 0.3s ease;
     object-fit: cover;
